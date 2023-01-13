@@ -4,16 +4,35 @@ import java.sql.*;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class Datamart {
     public static Connection connection;
 
     public static void main(String[] args) throws SQLException, IOException {
-        connection = DriverManager.getConnection("jdbc:sqlite:Datamart.db");
-        dropTable();
-        createTables();
-        processFiles();
-        connection.close();
+        Timer timer = new Timer();
+        DatamartTask task = new DatamartTask();
+        timer.scheduleAtFixedRate(task, 0, 12*60*60*1000); //ejecutar cada 12 horas
+    }
+
+    public static class DatamartTask extends TimerTask {
+
+        @Override
+        public void run() {
+            try {
+                connection = DriverManager.getConnection("jdbc:sqlite:Datamart.db");
+                dropTable();
+                createTables();
+                processFiles();
+                connection.close();
+                System.out.println("La base de datos ha sido actualizada.");
+            } catch (SQLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     private static void createTables() throws SQLException {

@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22a7c92c-8f3b-4d81-8c57-b5ef54ac02ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Rest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Rest/src/main/java/Controller/TemperatureApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Rest/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-Rest/src/main/java/Model/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datamart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datamart/src/main/java/Datamart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datamart/src/main/java/Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datamart/src/main/java/Model/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feeder/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feeder/src/main/java/Controller/ScheduleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feeder/src/main/java/Feeder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feeder/src/main/java/Model/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feeder/src/main/java/Model/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feeder/src/main/java/Model/FileClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feeder/src/main/java/Model/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="22a7c92c-8f3b-4d81-8c57-b5ef54ac02ee" name="Changes" comment="V1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datamart.db" beforeDir="false" afterPath="$PROJECT_DIR$/Datamart.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datamart/src/main/java/Datamart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Datamart/src/main/java/Datamart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +57,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,8 +75,16 @@
       <workItem from="1673549153971" duration="26177000" />
       <workItem from="1673591456453" duration="2199000" />
       <workItem from="1673612683044" duration="1993000" />
-      <workItem from="1673635783243" duration="1596000" />
+      <workItem from="1673635783243" duration="9392000" />
     </task>
+    <task id="LOCAL-00001" summary="V1.0">
+      <created>1673637720603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673637720603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +100,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="V1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
